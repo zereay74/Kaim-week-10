@@ -1,0 +1,9 @@
+2025-02-20 10:00:38,645 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-20 10:00:38,645 - INFO - DataFrame Shape: (9011, 2)
+2025-02-20 10:00:38,673 - INFO - Checking for missing values in the DataFrame.
+2025-02-20 10:00:38,679 - INFO - Missing values check completed.
+2025-02-20 10:01:42,341 - INFO - test
+2025-02-20 11:26:55,599 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-20 11:26:56,960 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-20 11:28:09,605 - INFO - Checking for missing values in the DataFrame.
+2025-02-20 11:28:09,623 - INFO - Missing values check completed.
