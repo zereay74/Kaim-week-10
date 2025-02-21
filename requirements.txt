@@ -1,1 +1,8 @@
-
+arch
+matplotlib
+numpy
+pandas
+ruptures
+scipy
+seaborn
+statsmodels

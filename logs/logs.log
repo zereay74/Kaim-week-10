@@ -7,3 +7,90 @@
 2025-02-20 11:26:56,960 - INFO - Datetime transformation for column 'Date' completed.
 2025-02-20 11:28:09,605 - INFO - Checking for missing values in the DataFrame.
 2025-02-20 11:28:09,623 - INFO - Missing values check completed.
+2025-02-20 13:31:33,734 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-20 13:31:33,737 - INFO - DataFrame Shape: (9011, 2)
+2025-02-20 13:31:36,078 - INFO - Checking for missing values in the DataFrame.
+2025-02-20 13:31:36,084 - INFO - Missing values check completed.
+2025-02-20 13:31:38,226 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-20 13:31:39,731 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-20 13:31:41,391 - INFO - Checking for missing values in the DataFrame.
+2025-02-20 13:31:41,395 - INFO - Missing values check completed.
+2025-02-20 13:32:14,519 - INFO - Data initialized and Date set as index.
+2025-02-20 13:32:38,248 - INFO - Generating data summary.
+2025-02-20 13:33:39,321 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-20 13:34:03,124 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-20 13:34:35,703 - INFO - Fitting ARIMA model with order (1, 1, 1).
+2025-02-20 13:34:36,699 - INFO - ARIMA model fitted successfully.
+2025-02-20 13:35:45,313 - INFO - Fitting GARCH model with (p=1, q=1).
+2025-02-20 13:35:45,519 - INFO - GARCH model fitted successfully.
+2025-02-20 13:37:45,391 - INFO - Forecasting next 30 days using ARIMA.
+2025-02-20 13:38:19,477 - INFO - Forecasting volatility for next 30 days using GARCH.
+2025-02-20 13:46:00,796 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-20 13:46:00,796 - INFO - DataFrame Shape: (9011, 2)
+2025-02-20 13:46:03,210 - INFO - Checking for missing values in the DataFrame.
+2025-02-20 13:46:03,216 - INFO - Missing values check completed.
+2025-02-20 13:46:05,545 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-20 13:46:07,072 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-20 13:46:08,869 - INFO - Checking for missing values in the DataFrame.
+2025-02-20 13:46:08,875 - INFO - Missing values check completed.
+2025-02-20 13:46:24,484 - INFO - Data initialized and Date set as index.
+2025-02-20 13:46:26,613 - INFO - Generating data summary.
+2025-02-20 13:46:45,473 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-20 13:48:16,990 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-20 13:48:16,991 - INFO - DataFrame Shape: (9011, 2)
+2025-02-20 13:48:18,961 - INFO - Checking for missing values in the DataFrame.
+2025-02-20 13:48:18,965 - INFO - Missing values check completed.
+2025-02-20 13:48:22,966 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-20 13:48:24,668 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-20 13:48:32,147 - INFO - Data initialized and Date set as index.
+2025-02-20 13:48:34,433 - INFO - Generating data summary.
+2025-02-20 13:48:37,420 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-20 13:50:33,741 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-20 13:50:33,743 - INFO - DataFrame Shape: (9011, 2)
+2025-02-20 13:50:36,383 - INFO - Checking for missing values in the DataFrame.
+2025-02-20 13:50:36,388 - INFO - Missing values check completed.
+2025-02-20 13:50:39,008 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-20 13:50:40,299 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-20 13:50:42,997 - INFO - Checking for missing values in the DataFrame.
+2025-02-20 13:50:43,002 - INFO - Missing values check completed.
+2025-02-20 13:50:45,385 - INFO - Data initialized and Date set as index.
+2025-02-20 13:50:49,205 - INFO - Generating data summary.
+2025-02-20 13:50:53,284 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-20 13:52:50,726 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-20 13:52:50,727 - INFO - DataFrame Shape: (9011, 2)
+2025-02-20 13:52:50,742 - INFO - Checking for missing values in the DataFrame.
+2025-02-20 13:52:50,749 - INFO - Missing values check completed.
+2025-02-20 13:52:50,779 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-20 13:52:52,407 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-20 13:52:52,432 - INFO - Checking for missing values in the DataFrame.
+2025-02-20 13:52:52,438 - INFO - Missing values check completed.
+2025-02-20 13:52:52,479 - INFO - Data initialized and Date set as index.
+2025-02-20 13:52:52,502 - INFO - Generating data summary.
+2025-02-20 13:52:53,066 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-20 13:53:06,864 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-20 13:53:06,874 - INFO - DataFrame Shape: (9011, 2)
+2025-02-20 13:53:09,175 - INFO - Checking for missing values in the DataFrame.
+2025-02-20 13:53:09,180 - INFO - Missing values check completed.
+2025-02-20 13:53:12,192 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-20 13:53:13,551 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-20 13:53:15,142 - INFO - Checking for missing values in the DataFrame.
+2025-02-20 13:53:15,146 - INFO - Missing values check completed.
+2025-02-20 13:53:24,623 - INFO - Data initialized, sorted, and Date set as index.
+2025-02-20 13:53:32,193 - INFO - Generating data summary.
+2025-02-20 13:53:36,234 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-20 13:55:26,891 - INFO - Detected change points: [820, 935, 2695, 3100, 4220, 4370, 4600, 5090, 5200, 5315, 5415, 5445, 5595, 5695, 5980, 6035, 6340, 6925, 6985, 7155, 7350, 7700, 7840, 7990, 8330, 8380, 8540, 8640, 8815, 8940, 9011]
+2025-02-20 13:55:51,048 - INFO - Bayesian detected change points: [3165, 4520, 5990, 6985, 8720, 9011]
+2025-02-20 16:16:57,195 - INFO - Fitting ARIMA model with order (1, 1, 1).
+2025-02-20 16:16:58,145 - INFO - ARIMA model fitted successfully.
+2025-02-20 16:17:01,252 - INFO - Fitting GARCH model with (p=1, q=1).
+2025-02-20 16:17:01,451 - INFO - GARCH model fitted successfully.
+2025-02-20 16:17:04,611 - INFO - Forecasting next 30 days using ARIMA.
+2025-02-20 16:17:19,167 - INFO - Forecasting volatility for next 30 days using GARCH.
+2025-02-20 16:17:46,875 - INFO - Fitting ARIMA model with order (2, 1, 2).
+2025-02-20 16:17:54,116 - INFO - ARIMA model fitted successfully.
+2025-02-20 16:18:18,153 - INFO - Forecasting next 30 days using ARIMA.
+2025-02-20 16:18:33,677 - INFO - Forecasting next 30 days using ARIMA.
+2025-02-20 16:18:54,539 - INFO - Fitting GARCH model with (p=1, q=1).
+2025-02-20 16:18:54,834 - INFO - GARCH model fitted successfully.
+2025-02-20 16:19:13,713 - INFO - Forecasting volatility for next 30 days using GARCH.
+2025-02-20 20:00:23,835 - INFO - Detected change points: [820, 935, 2695, 3100, 4220, 4370, 4600, 5090, 5200, 5315, 5415, 5445, 5595, 5695, 5980, 6035, 6340, 6925, 6985, 7155, 7350, 7700, 7840, 7990, 8330, 8380, 8540, 8640, 8815, 8940, 9011]
