@@ -94,3 +94,179 @@
 2025-02-20 16:18:54,834 - INFO - GARCH model fitted successfully.
 2025-02-20 16:19:13,713 - INFO - Forecasting volatility for next 30 days using GARCH.
 2025-02-20 20:00:23,835 - INFO - Detected change points: [820, 935, 2695, 3100, 4220, 4370, 4600, 5090, 5200, 5315, 5415, 5445, 5595, 5695, 5980, 6035, 6340, 6925, 6985, 7155, 7350, 7700, 7840, 7990, 8330, 8380, 8540, 8640, 8815, 8940, 9011]
+2025-02-24 09:57:12,802 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-24 09:57:12,804 - INFO - DataFrame Shape: (9011, 2)
+2025-02-24 09:57:26,162 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 09:57:26,171 - INFO - Missing values check completed.
+2025-02-24 09:57:38,465 - INFO - Data initialized and sorted by Date.
+2025-02-24 09:58:16,801 - INFO - ADF Statistic: -6.925435533002233, p-value: 1.1184789288203274e-09
+2025-02-24 09:58:51,386 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 09:58:52,169 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-24 09:58:57,363 - INFO - Data initialized and sorted by Date.
+2025-02-24 09:59:06,336 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-24 09:59:34,658 - INFO - Fitting VAR model with 5 lags.
+2025-02-24 10:01:34,382 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-24 10:01:34,383 - INFO - DataFrame Shape: (9011, 2)
+2025-02-24 10:01:36,217 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 10:01:36,221 - INFO - Missing values check completed.
+2025-02-24 10:01:38,547 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 10:01:39,238 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-24 10:01:41,739 - INFO - Data initialized and sorted by Date.
+2025-02-24 10:01:44,424 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-24 10:03:33,889 - INFO - Fitting Markov Switching model with            Date  Price
+0    1987-05-20  18.63
+1    1987-05-21  18.45
+2    1987-05-22  18.55
+3    1987-05-25  18.60
+4    1987-05-26  18.63
+...         ...    ...
+9006 2022-11-08  96.85
+9007 2022-11-09  93.05
+9008 2022-11-10  94.25
+9009 2022-11-11  96.37
+9010 2022-11-14  93.59
+
+[9011 rows x 2 columns] regimes.
+2025-02-24 10:04:45,056 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-24 10:04:45,057 - INFO - DataFrame Shape: (9011, 2)
+2025-02-24 10:04:45,073 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 10:04:45,077 - INFO - Missing values check completed.
+2025-02-24 10:04:45,102 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 10:04:45,921 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-24 10:04:45,938 - INFO - Data initialized and sorted by Date.
+2025-02-24 10:04:46,386 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-24 10:04:46,405 - INFO - Fitting Markov Switching model with            Date  Price
+0    1987-05-20  18.63
+1    1987-05-21  18.45
+2    1987-05-22  18.55
+3    1987-05-25  18.60
+4    1987-05-26  18.63
+...         ...    ...
+9006 2022-11-08  96.85
+9007 2022-11-09  93.05
+9008 2022-11-10  94.25
+9009 2022-11-11  96.37
+9010 2022-11-14  93.59
+
+[9011 rows x 2 columns] regimes.
+2025-02-24 10:04:54,016 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-24 10:04:54,019 - INFO - DataFrame Shape: (9011, 2)
+2025-02-24 10:04:54,035 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 10:04:54,041 - INFO - Missing values check completed.
+2025-02-24 10:04:54,065 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 10:04:54,851 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-24 10:04:54,868 - INFO - Data initialized and sorted by Date.
+2025-02-24 10:04:55,303 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-24 10:04:55,321 - INFO - Fitting Markov Switching model with            Date  Price
+0    1987-05-20  18.63
+1    1987-05-21  18.45
+2    1987-05-22  18.55
+3    1987-05-25  18.60
+4    1987-05-26  18.63
+...         ...    ...
+9006 2022-11-08  96.85
+9007 2022-11-09  93.05
+9008 2022-11-10  94.25
+9009 2022-11-11  96.37
+9010 2022-11-14  93.59
+
+[9011 rows x 2 columns] regimes.
+2025-02-24 10:05:00,070 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-24 10:05:00,072 - INFO - DataFrame Shape: (9011, 2)
+2025-02-24 10:05:00,086 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 10:05:00,090 - INFO - Missing values check completed.
+2025-02-24 10:05:00,122 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 10:05:00,960 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-24 10:05:00,977 - INFO - Data initialized and sorted by Date.
+2025-02-24 10:05:01,377 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-24 10:05:01,394 - INFO - Fitting Markov Switching model with            Date  Price
+0    1987-05-20  18.63
+1    1987-05-21  18.45
+2    1987-05-22  18.55
+3    1987-05-25  18.60
+4    1987-05-26  18.63
+...         ...    ...
+9006 2022-11-08  96.85
+9007 2022-11-09  93.05
+9008 2022-11-10  94.25
+9009 2022-11-11  96.37
+9010 2022-11-14  93.59
+
+[9011 rows x 2 columns] regimes.
+2025-02-24 10:08:05,864 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-24 10:08:05,881 - INFO - DataFrame Shape: (9011, 2)
+2025-02-24 10:08:05,897 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 10:08:05,902 - INFO - Missing values check completed.
+2025-02-24 10:08:05,950 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 10:08:06,732 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-24 10:08:06,748 - INFO - Data initialized and sorted.
+2025-02-24 10:08:07,196 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-24 10:08:07,213 - INFO - Fitting Markov Switching model with            Date  Price
+0    1987-05-20  18.63
+1    1987-05-21  18.45
+2    1987-05-22  18.55
+3    1987-05-25  18.60
+4    1987-05-26  18.63
+...         ...    ...
+9006 2022-11-08  96.85
+9007 2022-11-09  93.05
+9008 2022-11-10  94.25
+9009 2022-11-11  96.37
+9010 2022-11-14  93.59
+
+[9011 rows x 2 columns] regimes.
+2025-02-24 10:08:15,757 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-24 10:08:15,759 - INFO - DataFrame Shape: (9011, 2)
+2025-02-24 10:08:15,775 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 10:08:15,779 - INFO - Missing values check completed.
+2025-02-24 10:08:15,801 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 10:08:16,474 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-24 10:08:16,491 - INFO - Data initialized and sorted.
+2025-02-24 10:08:16,992 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-24 10:08:17,009 - INFO - Fitting Markov Switching model with            Date  Price
+0    1987-05-20  18.63
+1    1987-05-21  18.45
+2    1987-05-22  18.55
+3    1987-05-25  18.60
+4    1987-05-26  18.63
+...         ...    ...
+9006 2022-11-08  96.85
+9007 2022-11-09  93.05
+9008 2022-11-10  94.25
+9009 2022-11-11  96.37
+9010 2022-11-14  93.59
+
+[9011 rows x 2 columns] regimes.
+2025-02-24 10:08:49,314 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-24 10:08:49,315 - INFO - DataFrame Shape: (9011, 2)
+2025-02-24 10:08:49,328 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 10:08:49,332 - INFO - Missing values check completed.
+2025-02-24 10:08:49,355 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 10:08:49,985 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-24 10:08:49,999 - INFO - Data initialized and sorted.
+2025-02-24 10:08:50,377 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-24 10:08:50,388 - INFO - Fitting Markov Switching model with 2 regimes.
+2025-02-24 10:09:37,964 - INFO - Training LSTM model.
+2025-02-24 10:11:53,098 - INFO - LSTM training completed.
+2025-02-24 10:14:48,133 - INFO - Data initialized and sorted.
+2025-02-24 10:15:18,554 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-24 10:15:18,554 - INFO - DataFrame Shape: (9011, 2)
+2025-02-24 10:15:18,570 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 10:15:18,574 - INFO - Missing values check completed.
+2025-02-24 10:15:18,596 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 10:15:19,194 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-24 10:15:19,211 - INFO - Data initialized and sorted.
+2025-02-24 10:15:19,562 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-24 10:15:19,578 - INFO - Fitting Markov Switching model with 2 regimes.
+2025-02-24 10:15:26,406 - INFO - Training LSTM model.
+2025-02-24 10:17:41,231 - INFO - LSTM training completed.
+2025-02-24 10:27:21,147 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-24 10:27:21,148 - INFO - DataFrame Shape: (9011, 2)
+2025-02-24 10:27:21,165 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 10:27:21,168 - INFO - Missing values check completed.
+2025-02-24 10:27:21,192 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 10:27:21,799 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-24 10:27:21,822 - INFO - Data initialized and sorted.
+2025-02-24 10:27:22,204 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-24 10:27:22,224 - INFO - Fitting Markov Switching model with 2 regimes.
+2025-02-24 10:27:29,608 - INFO - Training LSTM model.
