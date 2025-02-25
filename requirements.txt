@@ -1,8 +1,13 @@
 arch
+flask
+keras
 matplotlib
+mlflow
 numpy
 pandas
 ruptures
+scikit-learn
 scipy
 seaborn
 statsmodels
+tensorflow
