@@ -270,3 +270,443 @@
 2025-02-24 10:27:22,204 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
 2025-02-24 10:27:22,224 - INFO - Fitting Markov Switching model with 2 regimes.
 2025-02-24 10:27:29,608 - INFO - Training LSTM model.
+2025-02-24 10:32:20,480 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-24 10:32:20,482 - INFO - DataFrame Shape: (9011, 2)
+2025-02-24 10:32:20,499 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 10:32:20,504 - INFO - Missing values check completed.
+2025-02-24 10:32:20,535 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 10:32:21,251 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-24 10:32:21,274 - INFO - Data initialized and sorted.
+2025-02-24 10:32:21,724 - INFO - ADF Statistic: -1.9938560113924677, p-value: 0.28927350489340287
+2025-02-24 10:32:21,733 - INFO - Fitting Markov Switching model with 2 regimes.
+2025-02-24 10:32:30,206 - INFO - Training LSTM model.
+2025-02-24 10:39:24,422 - INFO - LSTM model trained successfully.
+2025-02-24 10:39:24,440 - INFO - Forecasting next 60 days using LSTM.
+2025-02-24 10:39:43,959 - INFO - LSTM forecast plotted successfully.
+2025-02-24 11:34:28,013 - ERROR - Error: File not found at week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-24 11:34:33,708 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-24 11:34:33,708 - INFO - DataFrame Shape: (58, 2)
+2025-02-24 11:35:19,334 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 11:35:19,384 - INFO - Missing values check completed.
+2025-02-24 11:35:35,906 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 11:35:35,909 - ERROR - Column 'Date' does not exist in the DataFrame.
+2025-02-24 11:36:45,008 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 11:36:45,010 - ERROR - Column 'Date' does not exist in the DataFrame.
+2025-02-24 11:36:56,646 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-24 11:36:56,646 - INFO - DataFrame Shape: (58, 2)
+2025-02-24 11:36:59,828 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 11:36:59,833 - INFO - Missing values check completed.
+2025-02-24 11:37:25,318 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 11:37:25,323 - ERROR - Column 'Date' does not exist in the DataFrame.
+2025-02-24 11:38:49,967 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-24 11:38:49,972 - ERROR - Column 'Date' does not exist in the DataFrame.
+2025-02-24 11:41:54,077 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 11:41:54,080 - INFO - Missing values check completed.
+2025-02-24 11:42:27,578 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 11:42:27,582 - INFO - Missing values check completed.
+2025-02-24 11:44:27,309 - INFO - Transforming datetime column 'Date ' without timezone conversion.
+2025-02-24 11:44:27,313 - INFO - Datetime transformation for column 'Date ' completed.
+2025-02-24 11:44:53,891 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-24 11:44:53,893 - INFO - DataFrame Shape: (58, 2)
+2025-02-24 11:44:55,823 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 11:44:55,826 - INFO - Missing values check completed.
+2025-02-24 11:44:59,150 - INFO - Transforming datetime column 'Date ' without timezone conversion.
+2025-02-24 11:44:59,152 - INFO - Datetime transformation for column 'Date ' completed.
+2025-02-24 11:45:12,335 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 11:45:12,339 - INFO - Missing values check completed.
+2025-02-24 11:46:33,953 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-24 11:46:33,955 - INFO - DataFrame Shape: (9011, 2)
+2025-02-24 11:46:54,593 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 11:46:54,598 - INFO - Missing values check completed.
+2025-02-24 11:47:06,821 - INFO - Checking for missing values in the DataFrame.
+2025-02-24 11:47:06,825 - INFO - Missing values check completed.
+2025-02-25 08:17:27,302 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 08:17:27,303 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 08:17:30,770 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:17:30,779 - INFO - Missing values check completed.
+2025-02-25 08:17:39,413 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 08:17:39,413 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 08:17:42,763 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:17:42,765 - INFO - Missing values check completed.
+2025-02-25 08:17:50,635 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-25 08:17:50,637 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-25 08:17:53,638 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:17:53,640 - INFO - Missing values check completed.
+2025-02-25 08:36:39,469 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 08:36:39,470 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 08:36:50,302 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 08:36:50,303 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 08:38:29,714 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:38:29,716 - INFO - Missing values check completed.
+2025-02-25 08:40:17,398 - INFO - Removing rows with null values in columns: ['Date_df1', 'Price'].
+2025-02-25 08:40:17,402 - INFO - Rows with null values in columns ['Date_df1', 'Price'] removed successfully.
+2025-02-25 08:44:53,262 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 08:44:53,263 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 08:45:00,184 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 08:45:00,184 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 08:45:04,545 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:45:04,548 - INFO - Missing values check completed.
+2025-02-25 08:45:07,432 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-25 08:45:07,435 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-25 08:45:09,944 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:45:09,947 - INFO - Missing values check completed.
+2025-02-25 08:45:23,348 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:45:23,350 - INFO - Missing values check completed.
+2025-02-25 08:46:08,248 - INFO - Removing rows with null values in columns: ['Price', 'Inflation_%'].
+2025-02-25 08:46:08,252 - INFO - Rows with null values in columns ['Price', 'Inflation_%'] removed successfully.
+2025-02-25 08:47:32,749 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 08:47:32,751 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 08:47:37,751 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 08:47:37,752 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 08:47:42,713 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:47:42,716 - INFO - Missing values check completed.
+2025-02-25 08:47:48,044 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-25 08:47:48,047 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-25 08:47:56,225 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:47:56,227 - INFO - Missing values check completed.
+2025-02-25 08:48:12,240 - INFO - Removing rows with null values in columns: ['Price', 'Inflation_%'].
+2025-02-25 08:48:12,245 - INFO - Rows with null values in columns ['Price', 'Inflation_%'] removed successfully.
+2025-02-25 08:50:56,897 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 08:50:56,897 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 08:51:02,398 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 08:51:02,399 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 08:51:04,101 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:51:04,103 - INFO - Missing values check completed.
+2025-02-25 08:51:06,843 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-25 08:51:06,845 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-25 08:51:12,835 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:51:12,837 - INFO - Missing values check completed.
+2025-02-25 08:51:18,409 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:51:18,411 - INFO - Missing values check completed.
+2025-02-25 08:51:23,353 - INFO - Removing rows with null values in columns: ['Price', 'Inflation_%'].
+2025-02-25 08:51:23,357 - INFO - Rows with null values in columns ['Price', 'Inflation_%'] removed successfully.
+2025-02-25 08:51:42,914 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:51:42,918 - INFO - Missing values check completed.
+2025-02-25 08:57:00,268 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 08:57:00,269 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 08:57:06,385 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 08:57:06,386 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 08:57:08,225 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:57:08,227 - INFO - Missing values check completed.
+2025-02-25 08:57:14,873 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:57:14,875 - INFO - Missing values check completed.
+2025-02-25 08:57:38,441 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 08:57:38,446 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 08:57:56,144 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 08:57:56,147 - INFO - Missing values check completed.
+2025-02-25 09:09:54,481 - INFO - Transforming datetime column 'Year' without timezone conversion.
+2025-02-25 09:09:54,485 - INFO - Datetime transformation for column 'Year' completed.
+2025-02-25 09:10:04,937 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:10:04,940 - INFO - Missing values check completed.
+2025-02-25 09:12:02,751 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 09:12:02,752 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 09:12:05,101 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:12:05,103 - INFO - Missing values check completed.
+2025-02-25 09:12:10,397 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 09:12:10,399 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 09:12:14,023 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:12:14,028 - INFO - Missing values check completed.
+2025-02-25 09:12:24,686 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:12:24,690 - INFO - Missing values check completed.
+2025-02-25 09:12:28,254 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 09:12:28,258 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 09:12:35,121 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:12:35,124 - INFO - Missing values check completed.
+2025-02-25 09:12:37,980 - INFO - Transforming datetime column 'Year' without timezone conversion.
+2025-02-25 09:12:37,982 - INFO - Datetime transformation for column 'Year' completed.
+2025-02-25 09:12:44,439 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:12:44,441 - INFO - Missing values check completed.
+2025-02-25 09:13:15,217 - INFO - Data initialized successfully.
+2025-02-25 09:13:26,940 - INFO - Data initialized successfully.
+2025-02-25 09:13:39,007 - INFO - Performing EDA.
+2025-02-25 09:13:39,995 - INFO - EDA completed.
+2025-02-25 09:21:59,476 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 09:21:59,476 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 09:22:01,334 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:22:01,337 - INFO - Missing values check completed.
+2025-02-25 09:22:06,014 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:22:06,016 - INFO - Missing values check completed.
+2025-02-25 09:22:09,268 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 09:22:09,271 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 09:22:14,846 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:22:14,848 - INFO - Missing values check completed.
+2025-02-25 09:22:17,581 - INFO - Transforming datetime column 'Year' without timezone conversion.
+2025-02-25 09:22:17,583 - INFO - Datetime transformation for column 'Year' completed.
+2025-02-25 09:22:21,099 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:22:21,102 - INFO - Missing values check completed.
+2025-02-25 09:22:24,525 - INFO - Data initialized successfully.
+2025-02-25 09:22:26,732 - INFO - Performing EDA.
+2025-02-25 09:22:27,420 - INFO - EDA completed.
+2025-02-25 09:23:07,724 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 09:23:07,726 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 09:23:20,770 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 09:23:20,771 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 09:23:28,230 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:23:28,232 - INFO - Missing values check completed.
+2025-02-25 09:23:30,479 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 09:23:30,482 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 09:23:34,604 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:23:34,607 - INFO - Missing values check completed.
+2025-02-25 09:23:36,445 - INFO - Transforming datetime column 'Year' without timezone conversion.
+2025-02-25 09:23:36,447 - INFO - Datetime transformation for column 'Year' completed.
+2025-02-25 09:23:38,405 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:23:38,407 - INFO - Missing values check completed.
+2025-02-25 09:23:42,997 - INFO - Data initialized successfully.
+2025-02-25 09:23:45,763 - INFO - Performing EDA.
+2025-02-25 09:23:46,163 - INFO - EDA completed.
+2025-02-25 09:24:33,839 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 09:24:33,840 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 09:24:43,251 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 09:24:43,251 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 09:24:46,079 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:24:46,082 - INFO - Missing values check completed.
+2025-02-25 09:24:50,963 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:24:50,966 - INFO - Missing values check completed.
+2025-02-25 09:24:54,943 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 09:24:54,947 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 09:25:00,492 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:25:00,496 - INFO - Missing values check completed.
+2025-02-25 09:25:02,985 - INFO - Transforming datetime column 'Year' without timezone conversion.
+2025-02-25 09:25:02,988 - INFO - Datetime transformation for column 'Year' completed.
+2025-02-25 09:25:05,710 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:25:05,714 - INFO - Missing values check completed.
+2025-02-25 09:25:07,848 - INFO - Data initialized successfully.
+2025-02-25 09:25:09,951 - INFO - Performing EDA.
+2025-02-25 09:25:10,369 - INFO - EDA completed.
+2025-02-25 09:30:17,576 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 09:30:17,577 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 09:30:36,703 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:30:36,705 - INFO - Missing values check completed.
+2025-02-25 09:30:41,926 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:30:41,930 - INFO - Missing values check completed.
+2025-02-25 09:30:44,735 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 09:30:44,738 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 09:30:49,033 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:30:49,035 - INFO - Missing values check completed.
+2025-02-25 09:30:51,690 - INFO - Transforming datetime column 'Year' without timezone conversion.
+2025-02-25 09:30:51,693 - INFO - Datetime transformation for column 'Year' completed.
+2025-02-25 09:30:53,915 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:30:53,918 - INFO - Missing values check completed.
+2025-02-25 09:30:56,084 - INFO - Data initialized successfully.
+2025-02-25 09:30:58,431 - INFO - Performing EDA.
+2025-02-25 09:30:58,827 - INFO - EDA completed.
+2025-02-25 09:31:38,921 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 09:31:38,923 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 09:31:43,267 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:31:43,270 - INFO - Missing values check completed.
+2025-02-25 09:31:56,315 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 09:31:56,315 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 09:31:59,201 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:31:59,203 - INFO - Missing values check completed.
+2025-02-25 09:32:03,395 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:32:03,398 - INFO - Missing values check completed.
+2025-02-25 09:32:05,705 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 09:32:05,709 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 09:32:10,977 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:32:10,980 - INFO - Missing values check completed.
+2025-02-25 09:32:14,209 - INFO - Transforming datetime column 'Year' without timezone conversion.
+2025-02-25 09:32:14,212 - INFO - Datetime transformation for column 'Year' completed.
+2025-02-25 09:32:16,281 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:32:16,284 - INFO - Missing values check completed.
+2025-02-25 09:32:18,509 - INFO - Data initialized successfully.
+2025-02-25 09:32:23,466 - INFO - Performing EDA.
+2025-02-25 09:32:23,791 - INFO - EDA completed.
+2025-02-25 09:33:42,953 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 09:33:42,953 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 09:33:49,844 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 09:33:49,844 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 09:33:52,264 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:33:52,264 - INFO - Missing values check completed.
+2025-02-25 09:33:58,049 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:33:58,052 - INFO - Missing values check completed.
+2025-02-25 09:34:10,607 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 09:34:10,611 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 09:34:15,759 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:34:15,763 - INFO - Missing values check completed.
+2025-02-25 09:34:17,985 - INFO - Transforming datetime column 'Year' without timezone conversion.
+2025-02-25 09:34:17,987 - INFO - Datetime transformation for column 'Year' completed.
+2025-02-25 09:34:20,273 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:34:20,276 - INFO - Missing values check completed.
+2025-02-25 09:34:37,215 - INFO - Data loaded and sorted.
+2025-02-25 09:34:41,645 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 09:34:42,335 - INFO - EDA completed.
+2025-02-25 09:39:21,346 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 09:39:21,348 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 09:39:25,743 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 09:39:25,743 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 09:39:28,000 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:39:28,003 - INFO - Missing values check completed.
+2025-02-25 09:39:32,931 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:39:32,933 - INFO - Missing values check completed.
+2025-02-25 09:39:35,538 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 09:39:35,542 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 09:39:40,512 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:39:40,516 - INFO - Missing values check completed.
+2025-02-25 09:39:48,849 - INFO - Transforming datetime column 'Year' without timezone conversion.
+2025-02-25 09:39:48,851 - INFO - Datetime transformation for column 'Year' completed.
+2025-02-25 09:39:51,185 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:39:51,188 - INFO - Missing values check completed.
+2025-02-25 09:39:54,039 - INFO - Data loaded and sorted.
+2025-02-25 09:39:56,670 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 09:39:57,416 - INFO - EDA completed.
+2025-02-25 09:40:58,904 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 09:40:58,904 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 09:41:00,047 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:41:00,050 - INFO - Missing values check completed.
+2025-02-25 09:41:04,023 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:41:04,026 - INFO - Missing values check completed.
+2025-02-25 09:41:06,400 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 09:41:06,403 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 09:41:10,504 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:41:10,507 - INFO - Missing values check completed.
+2025-02-25 09:41:12,534 - INFO - Transforming datetime column 'Year' without timezone conversion.
+2025-02-25 09:41:12,537 - INFO - Datetime transformation for column 'Year' completed.
+2025-02-25 09:41:14,511 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:41:14,513 - INFO - Missing values check completed.
+2025-02-25 09:41:17,056 - INFO - Data loaded and sorted.
+2025-02-25 09:41:20,056 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 09:41:20,504 - INFO - EDA completed.
+2025-02-25 09:44:58,213 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 09:44:58,213 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 09:45:01,418 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:45:01,420 - INFO - Missing values check completed.
+2025-02-25 09:45:04,494 - INFO - Transforming datetime column 'Date' without timezone conversion.
+2025-02-25 09:45:06,944 - INFO - Datetime transformation for column 'Date' completed.
+2025-02-25 09:45:10,775 - INFO - Data initialized and sorted.
+2025-02-25 09:45:35,573 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 09:45:35,576 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 09:45:37,884 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:45:37,890 - INFO - Missing values check completed.
+2025-02-25 09:45:42,871 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:45:42,875 - INFO - Missing values check completed.
+2025-02-25 09:45:45,731 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 09:45:45,738 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 09:45:51,271 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:45:51,278 - INFO - Missing values check completed.
+2025-02-25 09:45:54,248 - INFO - Transforming datetime column 'Year' without timezone conversion.
+2025-02-25 09:45:54,254 - INFO - Datetime transformation for column 'Year' completed.
+2025-02-25 09:45:56,702 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:45:56,706 - INFO - Missing values check completed.
+2025-02-25 09:45:59,196 - INFO - Data loaded and sorted.
+2025-02-25 09:46:01,837 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 09:46:50,873 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 09:46:50,875 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 09:46:53,154 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:46:53,163 - INFO - Missing values check completed.
+2025-02-25 09:46:58,953 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:46:58,957 - INFO - Missing values check completed.
+2025-02-25 09:47:01,565 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 09:47:01,570 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 09:47:06,377 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:47:06,379 - INFO - Missing values check completed.
+2025-02-25 09:47:08,872 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:47:08,877 - INFO - Missing values check completed.
+2025-02-25 09:47:12,476 - INFO - Data loaded and sorted.
+2025-02-25 09:47:14,871 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 09:47:15,854 - INFO - EDA completed.
+2025-02-25 09:48:09,079 - INFO - Building models.
+2025-02-25 09:48:25,495 - INFO - Models trained successfully.
+2025-02-25 09:49:23,905 - INFO - Forecasting next 4 years using LSTM.
+2025-02-25 09:49:26,484 - INFO - LSTM forecast completed.
+2025-02-25 09:56:42,896 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 09:56:42,900 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 09:56:57,708 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 09:56:57,708 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 09:56:59,983 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:56:59,987 - INFO - Missing values check completed.
+2025-02-25 09:57:05,490 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:57:05,493 - INFO - Missing values check completed.
+2025-02-25 09:57:08,452 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 09:57:08,456 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 09:57:14,055 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:57:14,059 - INFO - Missing values check completed.
+2025-02-25 09:57:43,774 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 09:58:42,915 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 09:58:42,916 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 09:58:44,809 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:58:44,813 - INFO - Missing values check completed.
+2025-02-25 09:58:51,092 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:58:51,097 - INFO - Missing values check completed.
+2025-02-25 09:58:54,080 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 09:58:54,087 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 09:58:58,906 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 09:58:58,909 - INFO - Missing values check completed.
+2025-02-25 09:59:04,583 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 10:10:25,254 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 10:10:25,254 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 10:10:31,506 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 10:10:31,506 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 10:10:33,886 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 10:10:33,890 - INFO - Missing values check completed.
+2025-02-25 10:10:39,548 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 10:10:39,551 - INFO - Missing values check completed.
+2025-02-25 10:10:42,161 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 10:10:42,165 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 10:10:46,363 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 10:10:46,369 - INFO - Missing values check completed.
+2025-02-25 10:11:03,184 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 10:11:22,032 - INFO - Data loaded and sorted.
+2025-02-25 10:11:35,287 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 10:11:36,288 - INFO - EDA completed.
+2025-02-25 10:12:06,234 - INFO - Building models.
+2025-02-25 10:12:20,603 - INFO - Models trained successfully.
+2025-02-25 10:16:47,413 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 10:16:47,413 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 10:16:53,372 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 10:16:53,373 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 10:16:55,362 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 10:16:55,366 - INFO - Missing values check completed.
+2025-02-25 10:17:01,653 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 10:17:01,657 - INFO - Missing values check completed.
+2025-02-25 10:17:04,687 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 10:17:04,694 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 10:17:12,047 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 10:17:12,051 - INFO - Missing values check completed.
+2025-02-25 10:17:24,470 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 10:17:40,993 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 10:18:40,462 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 10:19:30,385 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 10:19:30,387 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 10:19:34,954 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 10:19:34,957 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 10:19:37,415 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 10:19:37,421 - INFO - Missing values check completed.
+2025-02-25 10:19:43,066 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 10:19:43,070 - INFO - Missing values check completed.
+2025-02-25 10:19:45,139 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 10:19:45,144 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 10:19:50,120 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 10:19:50,126 - INFO - Missing values check completed.
+2025-02-25 10:19:55,629 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 10:21:10,748 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 10:21:12,203 - INFO - EDA completed.
+2025-02-25 10:22:07,530 - INFO - Preparing data for training.
+2025-02-25 10:22:32,423 - INFO - Training models using MLflow.
+2025-02-25 10:23:15,644 - INFO - Model training completed.
+2025-02-25 10:23:32,499 - INFO - Training LSTM model.
+2025-02-25 10:24:17,299 - INFO - LSTM model training completed.
+2025-02-25 10:25:34,760 - INFO - Evaluating models.
+2025-02-25 10:25:34,773 - INFO - Decision Tree Model - MAE: 13.24, MSE: 325.03, R2: 0.57
+2025-02-25 10:25:34,802 - INFO - Random Forest Model - MAE: 14.15, MSE: 343.71, R2: 0.54
+2025-02-25 10:25:35,927 - INFO - LSTM Model - MAE: 23.88, MSE: 779.93, R2: -0.04
+2025-02-25 10:26:00,719 - INFO - Forecasting for next 4 years.
+2025-02-25 10:32:00,094 - INFO - Data successfully loaded from ../week 10 data/Data/BrentOilPrices.csv
+2025-02-25 10:32:00,094 - INFO - DataFrame Shape: (9011, 2)
+2025-02-25 10:32:10,750 - INFO - Data successfully loaded from ../week 10 data/Inflation rate data/Ethipian Inflatio rate.csv
+2025-02-25 10:32:10,750 - INFO - DataFrame Shape: (58, 2)
+2025-02-25 10:32:12,971 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 10:32:12,975 - INFO - Missing values check completed.
+2025-02-25 10:32:19,680 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 10:32:19,685 - INFO - Missing values check completed.
+2025-02-25 10:32:22,572 - INFO - Removing rows with null values in columns: ['Price'].
+2025-02-25 10:32:22,579 - INFO - Rows with null values in columns ['Price'] removed successfully.
+2025-02-25 10:32:28,307 - INFO - Checking for missing values in the DataFrame.
+2025-02-25 10:32:28,314 - INFO - Missing values check completed.
+2025-02-25 10:32:34,251 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 10:32:35,254 - INFO - EDA completed.
+2025-02-25 10:33:05,996 - INFO - Preparing data for training.
+2025-02-25 10:33:44,689 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 10:33:59,509 - INFO - Performing Exploratory Data Analysis.
+2025-02-25 10:34:00,602 - INFO - EDA completed.
+2025-02-25 10:34:26,954 - INFO - Preparing data for training.
+2025-02-25 10:34:39,879 - INFO - Training models using MLflow.
