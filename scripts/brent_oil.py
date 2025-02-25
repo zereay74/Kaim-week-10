@@ -149,3 +149,40 @@ class BrentOilAnalysis:
 # analysis.fit_lstm(lookback=30, epochs=20, batch_size=16)
 # future_predictions = analysis.forecast_lstm(future_days=60)
 
+
+import pandas as pd
+import numpy as np
+
+class DataAligner:
+    def __init__(self, df1, df2, date_col="Date"):
+        """
+        Initializes the DataAligner with two dataframes.
+        :param df1: First dataframe (with full dates)
+        :param df2: Second dataframe (only year available or other formats)
+        :param date_col: Name of the date column
+        """
+        self.df1 = df1.copy()
+        self.df2 = df2.copy()
+        self.date_col = date_col
+
+    def preprocess_dates(self):
+        """Ensures the date column is in datetime format and extracts the year."""
+        self.df1[self.date_col] = pd.to_datetime(self.df1[self.date_col], errors='coerce')
+        self.df1["Year"] = self.df1[self.date_col].dt.year
+        
+        self.df2[self.date_col] = pd.to_datetime(self.df2[self.date_col], format='%Y', errors='coerce')
+        self.df2["Year"] = self.df2[self.date_col].dt.year
+        
+        # Select one random year from df1 if multiple years exist
+        self.df1 = self.df1.groupby("Year").apply(lambda x: x.sample(1)).reset_index(drop=True)
+
+    def align_data(self):
+        """Aligns both datasets based on the Year column."""
+        self.preprocess_dates()
+        merged_df = pd.merge(self.df1.drop(columns=[self.date_col]), self.df2.drop(columns=[self.date_col]), on="Year", how="outer")
+        return merged_df
+
+# aligner = DataAligner(data, data_e_i)
+# aligned_data = aligner.align_data()
+# print(aligned_data)
+
